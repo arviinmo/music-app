@@ -16,20 +16,20 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background-color: #505050;
+  background-color: #5c5c5c;
 }
 
 .c-player {
   height: 750px;
   display: block;
-  background-color: #222121;
+  background-color: #2a2a2a;
   padding: 20px;
   border-radius: 12px;
   text-align: center;
 }
 
 .c-player > h4 {
-  color: #fff;
+  color: #ffffff;
   font-size: 23px;
   text-transform: uppercase;
   font-weight: 700;

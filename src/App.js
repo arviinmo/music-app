@@ -10,7 +10,7 @@ function App() {
       src: "./music/Burak Yeter-Tuesday.mp3"
     },
     {
-      title: "Moonlight",
+      title: "MoonLight",
       artist: "xxxTentaction",
       cover: "./images/Moonlight.jpg",
       src: "./music/Moonlight-xxxTentaction.mp3"
