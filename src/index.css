@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Antonio', sans-serif;
+}
+
+body {
+  background-color: #DDD;
+  text-align: center;
+  justify-content: center;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #505050;
+}
+
+.c-player {
+  height: 750px;
+  display: block;
+  background-color: #222121;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.c-player > h4 {
+  color: #fff;
+  font-size: 23px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.c-player > span {
+  display: flex;
+  justify-content: center;
+  color: rgb(208, 219, 253);
+  font-size: 18px;
+  text-align: center;
+  font-weight: 500;
+  padding: 10px;
+}
+
+.c-player > p {
+  color: rgb(255, 251, 0);
+  font-size: 24px;
+  text-align: center;
+  font-weight: 500;
+  padding-top: 30px;
+}
+
+.c-player--details .details-img {
+  position: relative;
+  width: fit-content;
+  margin: 50 auto;
+}
+
+.c-player--details .details-img img {
+  display: block;
+  margin: 0 auto;
+  width: 75%;
+  max-height: 450px;
+  border-radius: 50%;
+}
+
+.c-player--details .details-title {
+  color: #EEE;
+  font-size: 27px;
+  padding: 10px;
+  text-align: center;
+}
+
+.c-player--details .details-artist {
+  color: rgb(204, 0, 255);
+  font-size: 21px;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.c-player--controls {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.c-player--controls .play-btn {
+  display: flex;
+  padding: 25px;
+  margin: 0 30px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  background-color: purple;
+  color: whitesmoke;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.c-player--controls .skip-btn {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: rgb(136, 136, 136);
+  font-size: 22px;
+}
